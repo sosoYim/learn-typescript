@@ -3,6 +3,7 @@
     "allowJs": true,
     "checkJs": true,
     "noImplicitAny": true
-  },
-  "include": ["./src/**/*"]
+  }
 }
+
+// @ts-check

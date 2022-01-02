@@ -6,21 +6,21 @@ function logA(a = 'a') {
 }
 
 interface Dropdown<T> {
-  value: T
+  value: T;
   title: string;
 }
-var items: Dropdown<number> = {
-  value: 10,
-  title: 'a'
-}
+// var items: Dropdown<number> = {
+//   value: 10,
+//   title: 'a'
+// }
 
 interface DetailedDropdown<T> extends Dropdown<T> {
   description: string;
   tag: T;
 }
 var detailItems: DetailedDropdown<number> = {
-  value: 'hi',
+  value: 0,
   title: 'a',
   description: 'b',
-  tag: 'c'
-}
+  tag: 0,
+};
