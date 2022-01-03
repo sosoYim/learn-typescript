@@ -58,6 +58,7 @@ interface Dropdown<T> {
 
 // logTextLength<string>(['hi']);
 
+// TODO: 다시 보기
 // 제네릭 타입 제한 2 - 정의된 인터페이스 타입 이용하기
 interface LengthType {
   length: number;
